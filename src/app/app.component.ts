@@ -15,8 +15,6 @@ export class AppComponent {
   winBackground: boolean = false;
 
   playGame() {
-    console.log(this.guess);
-    console.log();
     if (this.guess > this.number) {
       this.message = 'Too High😒';
       this.score--;
